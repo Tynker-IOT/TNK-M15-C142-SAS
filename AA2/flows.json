@@ -443,7 +443,7 @@
         "type": "function",
         "z": "cd2cb55295535ec8",
         "name": "function 2",
-        "func": "if(msg.payload > 45){\n    msg.payload = \"Item toppeled\"\n}\nelse{\n    msg.payload = \"Item is steady\"\n}\nreturn msg;",
+        "func": "if(msg.payload > 45){\n    msg.payload = \"Item toppled\"\n}\nelse{\n    msg.payload = \"Item is steady\"\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
